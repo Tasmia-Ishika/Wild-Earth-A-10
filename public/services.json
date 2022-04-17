@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Prey with Royalty of Royal Bengal",
+        "price": "800",
+        "description": "A moment when there was no scape from Royal Bengal. Indeed a tremendous capture.",
+        "img": "https://img.freepik.com/free-photo/amazing-bengal-tiger-nature-with-its-prey_475641-1217.jpg?t=st=1650215369~exp=1650215969~hmac=589f9119c91a0daee42555862ca2696b56af848b3ea35501283a677e1a52d7ea&w=900"
+    },
+    {
+        "id": 2,
+        "name": "What a baby Ostrich saying?",
+        "price": "380",
+        "description": "Innocence is something that completely reflecting from this baby ostrich.",
+        "img": "https://img.freepik.com/free-photo/soft-focus-ostrich-farm-sunny-day_181624-34850.jpg?w=900"
+    },
+    {
+        "id": 3,
+        "name": "Unhatched American Robins",
+        "price": "350",
+        "description": "Still did not arrived at this wonderful planet but soon will born. A beautiful moment for the parent American Robins!!",
+        "img": "https://img.freepik.com/free-photo/couple-ducks-taking-care-nest-full-eggs_208861-3069.jpg?w=900"
+    },
+    {
+        "id": 4,
+        "name": "Mother's Love",
+        "price": "600",
+        "description": "Mother is the best gift we get in our life. Pure, selfless and precious that cannot be compared with anything.",
+        "img": "https://img.freepik.com/free-photo/cisticola-exilis-bird-feeding-its-chicks-cage-baby-cisticola-exilis-bird-waiting-food-from-its-mother-cisticola-exilis-bird-branch_488145-2324.jpg?t=st=1650215866~exp=1650216466~hmac=c4aaf8319c1c660d50b08937e13990b0150ddcd09be8aa1a53e1a8f973a3e130&w=900"
+    },
+    {
+        "id": 5,
+        "name": "Unity",
+        "price": "750",
+        "description": "These bunch of Giraffes giving us major goals of Unity.Indeed Unity is Strength. ",
+        "img": "https://img.freepik.com/free-photo/giraffes-herd-savannah_155003-6499.jpg?w=900"
+    },
+    {
+        "id": 6,
+        "name": "Unbeatable Print Combinations by Nature",
+        "price": "650",
+        "description": "Our nature offers us most incredible beauties and undoubtedly zebra is one of them. A print that is well crafted by mother nature herself",
+        "img": "https://img.freepik.com/free-photo/closeup-shot-white-black-striped-zebra_181624-17355.jpg?t=st=1650216086~exp=1650216686~hmac=299be0316192e7a72c38699ea23289813bb3de57da82d832e16575d8b73ebde3&w=900"
+    }
+]
