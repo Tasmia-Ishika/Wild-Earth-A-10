@@ -6,12 +6,12 @@ import {getAuth} from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAqAOloGouid5QTxqs0W16ugZFe1pufooU",
-  authDomain: "wild-earth-f3a62.firebaseapp.com",
-  projectId: "wild-earth-f3a62",
-  storageBucket: "wild-earth-f3a62.appspot.com",
-  messagingSenderId: "786300047062",
-  appId: "1:786300047062:web:3c05626f2f77b6745e0377"
+  apiKey:process.env.REACT_APP_apiKey,
+  authDomain:process.env.REACT_APP_authDomain,
+  projectId:process.env.REACT_APP_projectId,
+  storageBucket:process.env.REACT_APP_storageBucket,
+  messagingSenderId:process.env.REACT_APP_messagingSenderId,
+  appId:process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
