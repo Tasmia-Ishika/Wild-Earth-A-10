@@ -20,7 +20,7 @@ const Banner = () => {
                   alt="First slide"
                 />
                 <Carousel.Caption>
-                  <h3 className='fw-bolder'>Deer parents really enjoys the company of their children.</h3>
+                  <h3 className='fw-bolder'>Facts about Deer Parents</h3>
                   <p className='fw-bold'>See why the dawns are favourite times for deers?</p>
                 </Carousel.Caption>
               </Carousel.Item>
