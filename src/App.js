@@ -9,6 +9,7 @@ import Register from './Pages/LoginSection/Register/Register';
 import RequireAuth from './Pages/LoginSection/Login/RequireAuth/RequireAuth';
 import Checkout from './Pages/Checkout/Checkout';
 import DetailService from './Pages/DeatilsOfService/DetailService';
+import Blogs from './Pages/Blogs/Blogs';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/detail/:detailId" element={<DetailService></DetailService>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
