@@ -1,5 +1,5 @@
 @media only screen and (max-width:576px) {
-    .login-container{
+    .blogs-container{
         grid-template-columns: repeat(1, 1fr);
     }
 }

@@ -61,7 +61,7 @@ const Login = () => {
     }
 
     return (
-        <div className='container w-50 mx-auto'>
+        <div className='login-container w-50 mx-auto'>
             <h2 className='text-danger text-center mt-2'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3 mt-3" controlId="formBasicEmail">
@@ -76,7 +76,7 @@ const Login = () => {
             </Form>
             {errorElement}
             <p className='mt-3'>New to Wild Earth? <Link to="/register" className='text-danger  pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
-            <p>Forgot Password? <button className='btn btn-link text-danger pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
+            <p>Forgot Password?<button className='btn btn-link text-danger pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             <SocialLogin></SocialLogin>
             <ToastContainer />
         </div>

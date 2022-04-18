@@ -11,7 +11,7 @@ const PhotographerDetails = () => {
                     <p><small className='text-primary'>Wildlife Photographer</small></p>
                 </div>
                 <div>
-                    <p>Simon Richard is an Internatinal Award Winning Wildlife Photographer.His Famous "Prey with Royalty of Royal Bengal" is known as his best work. Simon Traveled internationally covering from South Africa's Wildlife to Alaska's Wildlife.His capture always indicate a special hidden message about our nature.According to Simon , <span className='text-primary fw-bold'>"Our Nature Gives us Best If We are Capable Enough to see them"</span></p>
+                    <p className='m-3 p-4'>Simon Richard is an Internatinal Award Winning Wildlife Photographer.His Famous "Prey with Royalty of Royal Bengal" is known as his best work. Simon Traveled internationally covering from South Africa's Wildlife to Alaska's Wildlife.His capture always indicate a special hidden message about our nature.According to Simon , <span className='text-primary fw-bold'>"Our Nature Gives us Best If We are Capable Enough to see them"</span></p>
                 </div>
             </div>
         </div>

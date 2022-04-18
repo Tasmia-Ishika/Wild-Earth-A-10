@@ -45,7 +45,7 @@ if(user){
     }
 
     return (
-        <div className='register-form'>
+        <div className='login-container register-form'>
             <h2 style={{ textAlign: 'center' }} className='text-danger mt-4'>Please Register</h2>
             <form onSubmit={handleRegister}>
                 <input className='mt-3   ' type="text" name="name" id="" placeholder='Your Name' />
@@ -62,7 +62,7 @@ if(user){
                     type="submit"
                     value="Register" />
             </form>
-            <p>Already have an account? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+            <p>Already have an account? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Login</Link> </p>
             <SocialLogin></SocialLogin>
         </div>
     );
