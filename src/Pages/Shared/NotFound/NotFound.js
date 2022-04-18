@@ -1,11 +1,11 @@
 import React from 'react';
-// import sleeping from '../../../images/sleeping.jpg';
+import error from '../../../images/error/error.png'
 
 const NotFound = () => {
     return (
         <div>
-            <h2 className='text-primary text-center'>Mechanic is sleeping</h2>
-            <img className='w-100' src='' alt="" />
+            <h2 className='text-danger text-center'>Sorry! Page Not Found</h2>
+            <img className='w-100' src={error} alt="" />
         </div>
     );
 };

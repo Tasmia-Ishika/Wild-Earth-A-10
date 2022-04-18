@@ -1,10 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import Service from '../Service/Sevice';
-
+import { ProductContext } from '../../../App';
 import './Services.css';
 
 const Services = () => {
-    const [services, setServices] = useState([]);
+    // const [services, setServices] = useState([]);
+
+    const [services, setServices] = useContext(ProductContext);
+    
 
     useEffect(() => {
         fetch('services.json')
